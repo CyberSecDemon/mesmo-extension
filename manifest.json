@@ -1,0 +1,31 @@
+{
+  "name": "Mesmo: ChatGPT interface improvements.",
+  "description": "Everything that ChatGPT should do.",
+  "version": "1.0.0",
+  "permissions": ["storage", "unlimitedStorage", "tabs", "activeTab", "scripting", "activeTab"],
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/mesmo16.png",
+    "32": "icons/mesmo32.png",
+    "48": "icons/mesmo48.png",
+    "128": "icons/mesmo128.png"
+  },
+  "background": {
+  "service_worker": "background.js"
+},
+"content_scripts": [
+  {
+    "matches": ["https://chat.openai.com/*"],
+    "js": ["index.js"],
+    "run_at": "document_idle"
+  }
+],
+"web_accessible_resources": [{
+    "resources": ["images/*", "css/*", "templates/*"],
+    "matches": ["<all_urls>"]
+  }
+],
+"action": {
+  "default-title": "Mesmo: ChatGPT interface improvements"
+}
+}
