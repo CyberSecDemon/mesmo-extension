@@ -1,5 +1,19 @@
 # Mesmo: ChatGPT interface improvements.
 
+
+------------
+
+Help is always welcome. Please reach out if you would like to help push this project forward.
+
+Chrome Extension.
+
+**Home:**
+[![Home Page](https://raw.githubusercontent.com/CyberSecDemon/mesmo-extension/main/screenshots/tabs.jpeg "Home Page")](https://raw.githubusercontent.com/CyberSecDemon/mesmo-extension/main/screenshots/tabs.jpeg "Home Page")
+
+**Tabs:**
+[![Tabs](https://raw.githubusercontent.com/CyberSecDemon/mesmo-extension/main/screenshots/home.jpeg "Tabs")](https://raw.githubusercontent.com/CyberSecDemon/mesmo-extension/main/screenshots/home.jpeg "Tabs")
+
+
 Everything ChatGPT should do.
 
 
@@ -71,11 +85,9 @@ Settings Page:
 - Auto resize
 
 Thoughts:
-
-add a donate button .
-
-number of tokens used , available tokens.
-
+Add a donate button ?
+Number of tokens used , available tokens?
 Window overlayed at the top when you click commands or chat with others or web search or tabs
 
-if response is 4097 tokens then pop up "Continue button" if response is the same when clicking "Continue" then dissapear or if reponse is less than 4097 tokens
+Notes:
+If response is 4097 tokens then pop up "Continue button" if response is the same when clicking "Continue" then dissapear or if reponse is less than 4097 tokens. "Load More". -- Done
